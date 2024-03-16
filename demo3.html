@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  
+  <title>Image Gallery</title>
+  <meta name="description" content="Responsive Image Gallery">
+  <meta name="author" content="Tim Wells">
+  <link rel="stylesheet" href="css/demo3css.css">
+  <style>
+      body {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          background-image: url("images/lens3.jpg");}
+      h1 {color:bisque}
+  </style>
+</head>
+
+<body>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="Cover Page.html">Home</a>
+          <a href="demo3.html">Gallery</a>
+          <a href="Package.html">Packages</a>
+          <a href="about us .html">About Us</a>
+        </div>
+      </div>
+      
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>     
+      
+
+    <div class="topnav">
+
+        <a href="Cover Page.html">Home</a>
+
+        <a class="active" href="#Gallery">Gallery</a>
+
+        <a href="Package.html">Packages</a>
+
+        <a href="about us .html">About Us</a>
+
+    </div>
+
+<div id="gallery">  
+   <img src="images/galleryimg1.jpg">
+   <img src="images/galleryimg2.jpg">
+   <img src="images/galleryimg3.jpg">
+   <img src="images/galleryimg4.jpg">
+   <img src="images/galleryimg5.jpg">
+   <img src="images/galleryimg6.jpg">
+   <img src="images/galleryimg7.jpg">
+   <img src="images/galleryimg8.jpg">
+   <img src="images/galleryimg9.jpg">
+   <img src="images/galleryimg10.jpg">
+   <img src="images/galleryimg11.jpg">
+   <img src="images/galleryimg12.jpg">
+   <img src="images/galleryimg13.jpg">
+   <img src="images/galleryimg14.jpg">
+
+</div>
+
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+ 
+ </body>
+</html>

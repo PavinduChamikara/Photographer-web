@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/package.css">
+	<title>Packages</title>
+
+
+</head>
+<body bgcolor="black">   
+
+
+	<div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="Cover Page.html">Home</a>
+          <a href="demo3.html">Gallery</a>
+          <a href="Package.html">Packages</a>
+          <a href="about us .html">About Us</a>
+        </div>
+      </div>
+      
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>     
+      
+      
+	<div class="topnav">
+
+		<a href="Cover Page.html">Home</a>
+
+		<a href="demo3.html">Gallery</a>
+
+		<a class="active" href="#Package">Packages</a>
+
+		<a href="about us .html">About Us</a>
+
+	</div>
+
+		<h2 Class="heading">Select the Package that Suits You</h3>
+			<p>All packages will include:<br/>
+				DVD with High-Resolution Images and Print Release<br/>
+				Onlike Gallery for Viewing and Ordering<br/>
+				Phluffy and an Assistant.</p><br/><br/>
+
+<div class="pkgcards">
+<!-- going to add the packages with pretty js code -->	
+				<div class="card" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.5" data-tilt-easing="cubic-bezier(.03,.98,.52,.99)">
+			<div class="card-image"></div>
+
+			<div class="card-text">
+				<span class="date">Simple half day Package</span>
+				<h2 class="pkgs">Package 1</h2>
+				<p>6 Hours Continuous Coverage<br/>Rs.49,000</p>
+			</div>
+			<div class="card-stats">
+				<div class="stat">
+					<div class="value"> 6<sup></sup> </div>
+					<div class="type"> Hours </div>
+				</div>
+				<div class="stat border">
+					<div class="value"><sup></sup>1000 </div>
+					<div class="type"> Pictures </div>
+				</div>
+				<div class="stat">
+					<div class="value">45,000 </div>
+					<div class="type"> Rupees </div>
+				</div>		
+			</div>
+		</div>
+		     
+			   
+<!-- 2nd card -->
+		<div class="card" data-tilt>
+
+
+			<div class="card-image"></div>
+			<div class="card-text">
+				<span class="date">half day and more</span>
+				<h2 class="pkgs">Package 2</h2>
+				<p>8 Hours Continuous Coverage<br/>Engagement Session<br/>Rs.69,000</p>
+			</div>
+			<div class="card-stats">
+				<div class="stat">
+					<div class="value"> 8 </div>
+					<div class="type"> Hours</div>
+				</div>
+				<div class="stat border">
+					<div class="value"> Total </div>
+					<div class="type"> Engagement </div>
+				</div>
+				<div class="stat">
+					<div class="value"> 69,000 </div>
+					<div class="type"> Rupees </div>
+				</div>		
+			</div>
+		</div>				<div class="card" data-tilt data-tilt-scale="1.1" data-tilt-glare data-tilt-max-glare="0.5" data-tilt-easing="cubic-bezier(.03,.98,.52,.99)">
+			<div class="card-image"></div>
+<!-- 3st card -->
+			<div class="card-text">
+				<span class="date">Full day Package</span>
+				<h2 class="pkgs">Package 3</h2>
+				<p>10 Hours Continuous Coverage<br/>Engagement Session<br/>Fine Art Album<br/>Rs.89,000</p>
+			</div>
+			<div class="card-stats">
+				<div class="stat">
+					<div class="value"> 10<sup></sup> </div>
+					<div class="type"> Hours </div>
+				</div>
+				<div class="stat border">
+					<div class="value"><sup></sup>Album </div>
+					<div class="type"> Included </div>
+				</div>
+				<div class="stat">
+					<div class="value">89,000 </div>
+					<div class="type"> Rupees </div>
+				</div>		
+			</div>
+		</div>
+		     
+			   
+<!-- 4nd card -->
+		<div class="card" data-tilt>
+
+
+			<div class="card-image"></div>
+			<div class="card-text">
+				<span class="date">The Complete Capture</span>
+				<h2 class="pkgs">Package 4</h2>
+				<p>12 Hours Continuous Coverage<br/>Engagement Session<br/>Fine Art Album, Canvas<br/>2 Parent Albums<br/> Rs.99,000</p>
+			</div>
+			<div class="card-stats">
+				<div class="stat">
+					<div class="value"> 12 </div>
+					<div class="type"> Hours</div>
+				</div>
+				<div class="stat border">
+					<div class="value"> Happy </div>
+					<div class="type"> Ever After</div>
+				</div>
+				<div class="stat">
+					<div class="value"> 99,000 </div>
+					<div class="type"> Rupees </div>
+				</div>		
+			</div>
+		</div>
+</div>
+		<script type="text/javascript" src="javascript/vanilla-tilt.min.js"></script>
+
+		<div class="body" >
+			<form class="form" method="POST">
+				<h3 class="pkgs">Select</h3>
+				<div class="textbox">
+					<label for="fname" class="pkgs">First Name</label><br/>
+					<input type="text" name="fname" value="" id="fname" placeholder="e.g. Dinuka"><br/>
+				</div>
+				<div class="textbox">
+					<label for="lname" class="pkgs">Last Name</label><br/>
+					<input type="text" name="lastname" value="" id="lname" placeholder="e.g. Vidushan"><br/>
+				</div>
+				<div class="textbox">
+					<label for="number" class="pkgs">Contact No*:</label><br/>
+					<input type="text" name="number" placeholder="076 385 9990" id="number"><br>
+				</div>
+				<div class="textbox">	
+					<label for="email" class="pkgs">Email Address:</label> <br/> 
+					<input type="text" name="email" id="email" placeholder="e.g. DinugawithBigLense@gmail.com"><br>
+				</div>
+				<div class="radio">
+					<label for="pkg" class="pkgs">Selection:</label><br><br>
+					<label for="pkg01" class="pkgs"> package 01: </label>
+					<input type="radio" name="pkg" value="pkg01"><br>
+					<label for="pkg01" class="pkgs"> package 02: </label>
+					<input type="radio" name="pkg" value="pkg02"><br>
+					<label for="pkg01" class="pkgs"> package 03: </label>
+					<input type="radio" name="pkg" value="pkg03"><br>
+					<label for="pkg01" class="pkgs"> package 04: </label>
+					<input type="radio" name="pkg" value="pkg04"><br><br/><br>	
+				</div>
+				
+
+				<label for="type" class="pkgs">Select the type of the Event</label><br/>
+					<select name="type">
+						<option>Birthdays</option>
+						<option>Interviews</option> 
+						<option>Weddings</option>
+						<option>Events</option>
+						<option>other</option>
+					</select>
+					<br/>
+				<div class="cal">
+					<label for="date" class="pkgs">Select a date:</label><br>
+  					<input type="date" id="date" name="date">
+				</div>
+
+
+					 <input class="submit" type="submit" value="Book">
+
+			
+			</form>
+
+			<?php 
+				if(isset['submit']){
+					$fname =
+				}
+			?>
+
+		</div>
+		
+		<script>
+			function openNav() {
+    			document.getElementById("myNav").style.width = "100%";
+  			}
+  
+  			function closeNav() {
+    			document.getElementById("myNav").style.width = "0%";
+  			}
+		</script>
+
+</body>
+</html>
